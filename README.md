@@ -1,2 +1,2 @@
 # JS
-Création en Java-script
+Shifumi en Java-script
