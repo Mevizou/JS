@@ -4,19 +4,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="style.css">
         <title>Pierre feuille ciseaux</title>
         <meta charset="UTF-8"/>
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shojumaru" rel="stylesheet"> 
-        <!-- <style>
-            button{
-                border: 0px;
-                border-radius: 10px;
-                width: 200px;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                background-color:rgb(153, 240, 132);
-                color:rgb(0, 0, 0);
-                height: 50px;
-            }
-            </style> -->
-            
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shojumaru" rel="stylesheet">        
     </head>
     <body>
         <div id="block-jeu">
@@ -101,7 +89,7 @@
   
         for(var i = 0, taille = tabchoixUtilisateur.length; i < taille; i++){
   
-            afficheur.sendMessage("Le jeu peut commencer. choisissez un objet");
+            afficheur.sendMessage("Le jeu peut commencer. Choisissez un objet");
   
             tabchoixUtilisateur[i].addEventListener("click", function(){
   
@@ -113,7 +101,7 @@
  
                 finJeu++;
  
-                    if(finJeu >= 3){
+                    if(finJeu >= 5){
                         afficheur.sendMessage("Le jeu est fini</br>Ordinateur : " + scortO + "</br>Player : " + scortU);
                         return;
                     }

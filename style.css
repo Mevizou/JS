@@ -25,3 +25,11 @@ text-align: center;
    color:#704c26; 
    margin-bottom: 100px;
 }
+#statut-jeu{
+
+    text-align: center;
+    font-size:60px;
+    font-family: 'Indie Flower', cursive;
+   color:#704517; 
+    margin-top: 50px;
+}
